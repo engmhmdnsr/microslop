@@ -72,7 +72,7 @@ export function Hero() {
               alt="Portrait of a person wearing reflective red digital sunglasses in a dark cyberpunk setting"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover object-top brightness-[1.35] contrast-105 transition-transform duration-700 hover:scale-105"
+              className="object-cover object-top brightness-[1.7] contrast-110 transition-transform duration-700 hover:scale-105"
               priority
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-abyss via-abyss/20 to-transparent opacity-60" />
