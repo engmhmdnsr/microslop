@@ -2,12 +2,12 @@
   "name": "MICROSLOP — Microsoft's AI Slop Tracker",
   "short_name": "MICROSLOP",
   "description": "Track and document Microsoft's AI slop flooding the internet.",
-  "start_url": "/",
+  "start_url": "/microslop/",
   "display": "standalone",
-  "background_color": "#0a0a0a",
-  "theme_color": "#dc2626",
+  "background_color": "#050505",
+  "theme_color": "#FF1744",
   "orientation": "portrait-primary",
-  "scope": "/",
+  "scope": "/microslop/",
   "categories": ["news", "social"],
   "icons": [
     {
