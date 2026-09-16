@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const LOG = [
@@ -162,6 +163,16 @@ export function Footer() {
         </div>
         <div className="flex flex-col items-center justify-between gap-4 border-t border-neutral-900 pt-8 font-mono text-xs text-neutral-500 sm:flex-row">
           <p>© 2026 Microslop. All rights reserved. Set {date}.</p>
+          <a
+            href="https://oversight.ee"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2.5 text-neutral-400 transition-colors hover:text-white"
+          >
+            <span className="uppercase tracking-[0.18em]">Designed by</span>
+            <Image src="/oversight-mark.png" alt="Oversight" width={28} height={28} className="h-7 w-7 object-contain" />
+            <span className="font-bold uppercase tracking-[0.18em] text-white">oversight.ee</span>
+          </a>
           <div className="flex flex-wrap gap-6">
             <a href="https://status.microslop.com" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">Service status</a>
             <a href="mailto:info@microslop.com" className="transition-colors hover:text-white">Contact</a>
