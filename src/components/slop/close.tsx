@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import markImg from "../../../public/oversight-mark.png";
 
 const LOG = [
   { date: "21 Jan 2026", grade: "Critical", title: "Bing floods results with hallucinated reviews", body: "Fabricated writeups and citations to nowhere, with no mark that a machine wrote them." },
@@ -170,7 +171,7 @@ export function Footer() {
             className="flex items-center gap-2.5 text-neutral-400 transition-colors hover:text-white"
           >
             <span className="uppercase tracking-[0.18em]">Designed by</span>
-            <Image src="/oversight-mark.png" alt="Oversight" width={28} height={28} className="h-7 w-7 object-contain" />
+            <Image src={markImg} alt="Oversight" width={28} height={28} className="h-7 w-7 object-contain" />
             <span className="font-bold uppercase tracking-[0.18em] text-white">oversight.ee</span>
           </a>
           <div className="flex flex-wrap gap-6">

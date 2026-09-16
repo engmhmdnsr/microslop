@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import corridorImg from "../../../public/slop-corridor.jpg";
+import mineralImg from "../../../public/slop-mineral.jpg";
 import { TiltCard } from "./fx";
 
 const CHARGES = [
@@ -167,7 +169,7 @@ export function Diagnostics() {
         <div className="group relative h-[420px] overflow-hidden rounded-sm border border-neutral-800/80 sm:h-[480px] lg:col-span-4 lg:h-[540px]">
           <div
             className="absolute inset-0 h-full w-full bg-cover bg-center contrast-125 transition-transform duration-700 group-hover:scale-105"
-            style={{ backgroundImage: "url('/slop-mineral.jpg')" }}
+            style={{ backgroundImage: `url('${mineralImg.src}')` }}
           />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-abyss via-transparent to-abyss/30" />
           <div className="absolute inset-x-6 bottom-6 border border-signal/40 bg-black/85 p-4 font-mono text-xs backdrop-blur-md">
@@ -200,7 +202,7 @@ export function Mission() {
           <TiltCard className="relative aspect-[4/3] w-full overflow-hidden rounded-sm border border-neutral-800/80 bg-neutral-950 shadow-2xl md:aspect-[16/11]">
             <div
               className="absolute inset-0 h-full w-full bg-cover bg-center contrast-110 brightness-95 transition-transform duration-700 hover:scale-105"
-              style={{ backgroundImage: "url('/slop-corridor.jpg')" }}
+              style={{ backgroundImage: `url('${corridorImg.src}')` }}
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/30" />
             <div className="absolute bottom-4 left-4 border border-neutral-800 bg-black/70 px-2.5 py-1 font-mono text-[10px] text-neutral-400">

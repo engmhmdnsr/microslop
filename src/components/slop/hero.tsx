@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import subjectImg from "../../../public/slop-subject.jpg";
 import { SlopShader, TiltCard } from "./fx";
 
 export function Hero() {
@@ -67,7 +68,7 @@ export function Hero() {
             className="relative h-[540px] w-full overflow-hidden rounded-sm border border-white/[0.06] shadow-[0_20px_60px_rgba(0,0,0,0.8)] md:h-[660px] lg:h-[720px]"
           >
             <Image
-              src="/slop-subject.jpg"
+              src={subjectImg}
               alt="Portrait of a person wearing reflective red digital sunglasses in a dark cyberpunk setting"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
