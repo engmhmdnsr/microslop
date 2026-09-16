@@ -72,11 +72,11 @@ export function Hero() {
               alt="Portrait of a person wearing reflective red digital sunglasses in a dark cyberpunk setting"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover object-top contrast-110 brightness-95 transition-transform duration-700 hover:scale-105"
+              className="object-cover object-top brightness-[1.35] contrast-105 transition-transform duration-700 hover:scale-105"
               priority
             />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-abyss via-transparent to-transparent opacity-90 lg:opacity-50" />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-abyss via-transparent to-abyss/40" />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-abyss via-abyss/20 to-transparent opacity-60" />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-abyss/80 via-transparent to-abyss/20" />
             <div className="absolute left-6 top-6 z-20 flex items-center gap-2 border border-signal/40 bg-black/80 px-3 py-1.5 font-mono text-[10px] uppercase tracking-widest text-signal backdrop-blur-md">
               <span className="h-1.5 w-1.5 animate-pulse bg-signal" />
               Subject #09 // Neural runaway detected
